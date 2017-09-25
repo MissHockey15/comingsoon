@@ -1,23 +1,59 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  color: #fff;
+  background-color: #C4CEB9;
+  font-family: "PT Sans", sans-serif;
+  line-height: normal;
 }
 
-body {
-  background-color: #000;
+h2 {
+  font-family: "Caviar Dreams", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  display: inline-block;
+  line-height: normal;
 }
 
-a {
-  color: white;
-  padding-right: 1em;
-  text-decoration: none;
+.me {
+  margin-left: : auto;
+  width: 32%;
+  display: inline-block;
 }
 
 .text {
-  padding-left: 2em;
+  display: inline-block;
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: .7rem;
+}
+
+.middle {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+nav {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+}
+
+a,
+a:link {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
 }
